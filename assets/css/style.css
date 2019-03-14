@@ -1,0 +1,267 @@
+body {
+	background-image: url(../img/dim.png);
+	background-size: 570px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 140px 60px;
+    background-color: black; 
+}
+
+.transparent {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.h1{
+	margin-top: 200px;
+	height: 80vh;
+}
+
+.h1 h1{
+	font-size: 70px;
+	color: white;
+}
+.bar {
+	margin-top: 10px;
+	min-height: 5px;
+	background-color: white;
+}
+.h1 h4{
+	color: white;
+}
+
+.h1 p{
+	font-size: 20px;
+	color: rgb(100,100,100);
+}
+.h2 {
+	min-height: 900px;
+}
+.col-md-6 h2{
+	padding: 10px;
+	font-size: 50px;
+	color: white;
+}
+
+.balik-dia{
+	font-weight: bold;
+	background-color:rgb(200,200,200);
+	color: black;
+}
+.garis-batas{
+	width: 45px;
+	margin-left: 10px;
+	min-height: 5px;
+	background-color: white;
+}
+.h4{
+	min-height: 800px;
+}
+
+.hehehe{
+	min-height: 700px;
+}
+
+.skill{
+	z-index: -1000;
+	color: white;
+}
+
+.footer1 {
+	height: 100px;
+	background-color: #212529;
+	padding-top: 50px;
+	width: 100%;
+	color: white;
+	padding-bottom: 20px;
+}
+
+.experience{
+	background-color: #dedede;
+	height: 150vh;
+	margin-top: 50px;
+	overflow: auto;
+}
+
+.serti {
+	height: 200px;
+}
+.serti2 {
+	height: 400px;
+}
+
+.contact {
+	padding: 50px;
+	background-color: white;
+}
+
+.h3 {
+	min-height: 350px;
+}
+.topexperience {
+	width: 150px;
+	margin: 50px auto;
+}
+
+.stopSet{
+	margin-top: 1580px;
+}
+.stopSet1{
+	margin-top: 300px;
+}
+.stopSet2{
+	margin-top: 125px;
+}
+
+.paragraph{
+	padding: 10px;
+	font-size: 25px;
+	color: rgb(200,200,200);
+}
+
+.tug {
+	margin-left: 170px;
+}
+
+.bungkus {
+	min-height: 800px;
+}
+
+.about {
+	
+}
+
+.container-fluid{
+	z-index: 1;
+}
+.stop {
+    top: 190px;
+    position: fixed;
+}
+.abouth4{
+	z-index: -1000;
+}
+.stopabout {
+    top: 150px;
+    position: fixed;
+}
+
+
+.stopabouth4ku {
+    top: 140px;
+    width: 47.5%;
+    position: fixed;
+}
+
+.stopabouth4 {
+    top: 40px;
+    position: fixed;
+}
+
+.stopskill {
+	margin-top: 720px;
+}
+.stopparagraph{
+    top: 250px;
+    position: fixed;
+}
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+	body {
+	background-image: url(../img/dim.png);
+	background-size: 400px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 10px 200px;
+    background-color: black; 
+	}
+	.experience{
+		min-height: 350vh;
+	}
+
+	.footer1 {
+		padding-top: 10px
+		width: 80%;
+		font-size: 15px;
+	}
+
+	.row .footer p{
+		width: 80%;
+		margin: 0px auto;
+	}
+	.h1{
+	margin-top: 10px;
+	}
+
+	.h1 h1{
+	font-size: 40px;
+	}
+	.h1 h4{
+		font-size: 25px;
+	}
+	.h1 p{
+	font-size: 20px;
+	}
+	.h2 {
+		min-height: 100px;
+	}
+	.bungkus {
+		height: 0px;
+		display: none;
+	}
+	.skill h4 {
+		font-size: 20px;
+	}
+
+	.h3 {
+		min-height: 100vh;
+	}
+
+	.stopabout {
+	    top: 0px;
+	    position:absolute;
+	}
+	.stopparagraph{
+    top: 0px;
+    position: absolute;
+	}
+	.h4{
+		min-height: 0px;
+	}
+	
+	.stopabouth4 {
+	    top: 0px;
+	    position: absolute;
+	}
+
+	.stopSet{
+		margin-top: 0px;
+	}
+	.stopSet1{
+		margin-top: 0px;
+	}
+	.stopSet2{
+		margin-top: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 1000px) and (min-device-width : 667px){
+	body {
+	min-height: 1000px;
+	background-image: url(../img/dim.png);
+	background-size: 500px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: bottom left;
+    background-color: black; 
+	}
+	.h1{
+	margin-top: 240px;
+	}
+
+	.h1 h1{
+		font-size: 50px;
+	}
+}
